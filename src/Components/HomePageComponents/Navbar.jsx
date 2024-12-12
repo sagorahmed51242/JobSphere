@@ -7,7 +7,7 @@ const Navbar = () => {
   const [openOrClose , setOpenOrClose] = useState(true)
 
   return (
-    <div className='py-1 shadow-md sticky top-0 z-50'>
+    <div className='py-1 shadow-md sticky top-0 z-50 bg-white/50 backdrop-blur-sm'>
       <div className='max-w-[1280px] mx-auto grid lg:grid-cols-4'>
         <div className={openOrClose ? "flex items-center justify-between  pb-5" : "flex items-center justify-between"}>
           <div className='lg:col-span-1'>
